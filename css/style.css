@@ -38,14 +38,26 @@ a {
 /* Потом селекторы по классам */
 
 .text-input {
-
+    width: 90%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(210, 210, 210);
+    opacity: 60%;
+    border: solid;
+    border-color: rgb(100, 100, 100);
+    border-width: 1px;
+    border-radius: 3px;
 }
 
 .button {
     background-color: rgb(84, 87, 227);
     color: white;
-    width: 40%;
-    height: 40px;
+    width: 39%;
+    height: 37px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 8px;
@@ -66,6 +78,7 @@ a {
     margin-bottom: 10px;
     padding-left: 8px;
     font-family: Arial;
+    font-size: 14px;
     color: rgb(210, 210, 210);
     opacity: 60%;
     border: solid;
@@ -74,6 +87,14 @@ a {
     border-radius: 3px;
 }
 
+/* Mailing-list*/
+
+.checkboxes{
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+
+}
 
 /* Страничка жанров и тегов */
 
