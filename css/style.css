@@ -42,7 +42,17 @@ a {
 }
 
 .button {
-
+    background-color: rgb(84, 87, 227);
+    color: white;
+    width: 40%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    font-family: Arial;
+    border-color: dark-grey;
+    border-width: 1px;
+    border-radius: 4px;
 }
 
 /* Потом специальные правила по страничкам */
@@ -50,8 +60,18 @@ a {
 /* Login*/
 
 .input-login {
-
-
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    font-family: Arial;
+    color: rgb(210, 210, 210);
+    opacity: 60%;
+    border: solid;
+    border-color: rgb(100, 100, 100);
+    border-width: 1px;
+    border-radius: 3px;
 }
 
 
