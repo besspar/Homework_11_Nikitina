@@ -59,11 +59,10 @@ a {
 .button {
     background-color: rgb(84, 87, 227);
     color: white;
-    width: 39%;
     height: 37px;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding-left: 8px;
+    padding: 10px 20px 10px 20px;
     font-family: Arial;
     border-color: dark-grey;
     border-width: 1px;
@@ -179,15 +178,36 @@ h3 {
 /* Страничка подписки  */
 
 .box-green {
-
+    background: #E1F5EA;
+    width: 90%;
+    height: 40px;
+    padding-top: 15px;
+    padding-bottom: 52px;
+    padding-left: 20px;
+    font-family: Arial;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .box-purple {
-
+    background: rgb(233, 221, 246);
+    width: 90%;
+    height: 40px;
+    padding-top: 15px;
+    padding-bottom: 52px;
+    padding-left: 20px;
+    font-family: Arial;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .text-large {
-
+    font-family: Arial;
+    font-size: 18px;
 }
 
 .button-link {
@@ -201,6 +221,20 @@ h3 {
     padding: 10px 20px 10px 20px;
     font-family: Arial;
     text-decoration: none;
+    border-color: dark-grey;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.button1 {
+    background-color: rgb(84, 87, 227);
+    color: white;
+    width: 190px;
+    height: 37px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px 20px 10px 20px;
+    font-family: Arial;
     border-color: dark-grey;
     border-width: 1px;
     border-radius: 4px;
