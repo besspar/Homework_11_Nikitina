@@ -16,20 +16,22 @@ main {
 }
 
 p {
-
+    font-family: Arial;
+    margin-bottom: 20px;
+    line-height: 25px;
 }
 
 a {
-
+   color: rgb(106, 107, 230)
 }
 
 /* Колонки */
 
 .row {
-
+    display: flex;
 }
 .col {
-
+    flex: auto;
 }
 
 
@@ -55,25 +57,64 @@ a {
 
 /* Страничка жанров и тегов */
 
+h2 {
+    font-family: Arial;
+}
+
 .genre-first {
-background: #E1F5EA;
-width: 100%;
-height: 40px;
-padding-top: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
+    background: #E1F5EA;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: Arial;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .genre-second {
-
+    background: #CBEDFF;
+    width: 75%;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: Arial;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .genre-third {
-
+    background: rgb(252, 240, 229);
+    width: 45%;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: Arial;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .genre-fourth {
-
+    background: rgb(233, 221, 246);
+    width: 30%;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: Arial;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .tag {
